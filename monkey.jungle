@@ -1,0 +1,8 @@
+project.manifest = manifest.xml
+
+# Define default paths for source and resources
+base.sourcePath = source
+base.resourcePath = resources;resources/settings
+
+# Language overrides
+base.lang.eng = resources/strings

@@ -1,0 +1,26 @@
+<layouts>
+    <layout id="MainLayout">
+        <!-- Background -->
+        <drawable class="Background" />
+
+        <!-- Header: AI Target -->
+        <label id="targetLabel" x="center" y="10%" font="Gfx.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" text="Loading Target..." />
+        
+        <!-- Center Primary: Timer -->
+        <label id="timerLabel" x="center" y="25%" font="Gfx.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="00:00" />
+
+        <!-- Divider Line -->
+        <!-- Monkey C layouts don't have native lines easily, so we use a structural approach or draw it in code. We'll stick to labels for the grid layout -->
+        
+        <!-- Bottom Left: Heart Rate -->
+        <label id="hrTitle" x="25%" y="60%" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" text="HR" />
+        <label id="hrLabel" x="25%" y="70%" font="Gfx.FONT_NUMBER_MILD" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_RED" text="--" />
+
+        <!-- Bottom Right: Pace -->
+        <label id="paceTitle" x="75%" y="60%" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" text="PACE" />
+        <label id="paceLabel" x="75%" y="70%" font="Gfx.FONT_NUMBER_MILD" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" text="--:--" />
+
+        <!-- Full-Screen Status Overlay (Initially Hidden, used for 'Connecting...' state) -->
+        <label id="prompt" x="center" y="center" font="Gfx.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="@Strings.ConnectingText" />
+    </layout>
+</layouts>

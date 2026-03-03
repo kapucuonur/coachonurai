@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<properties>
+    <!-- The user's coachonurai.com account email address. -->
+    <property id="user_email" type="string">your@email.com</property>
+</properties>

@@ -1,0 +1,20 @@
+# Connect IQ Build and IDE Folders
+bin/
+gen/
+.connectiq/
+*.prg
+*.iq
+*.prg.debug.xml
+
+# macOS
+.DS_Store
+
+# Developer Keys
+*.der
+*.pem
+developer_key.der
+developer_key.pem
+
+# Miscellaneous
+.vscode/
+*.swp

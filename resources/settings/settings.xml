@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<settings>
+    <setting propertyKey="@Properties.user_email" title="@Strings.UserEmailTitle">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+</settings>

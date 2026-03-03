@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application entry="AICoachApp" id="30aa2094-a130-4e5b-b98a-7c9bc3b6c2d1" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" version="1.0.0">
+        <iq:products>
+            <!-- Fenix 7 Series -->
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7x"/>
+            <iq:product id="fenix7s"/>
+            <!-- Forerunner Series -->
+            <iq:product id="fr970"/>
+            <iq:product id="fr955"/>
+            <iq:product id="fr965"/>
+            <iq:product id="fr255"/>
+            <iq:product id="fr265"/>
+            <!-- Enduro 3 -->
+            <iq:product id="enduro3"/>
+            <!-- Epix -->
+            <iq:product id="epix2"/>
+            <!-- Venu 3 -->
+            <iq:product id="venu3"/>
+            <iq:product id="venu3s"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Background"/>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
