@@ -18,3 +18,8 @@ developer_key.pem
 # Miscellaneous
 .vscode/
 *.swp
+
+# Connect IQ Compiler
+internal-mir/
+external-mir/
+AICoachDataField-settings.json
